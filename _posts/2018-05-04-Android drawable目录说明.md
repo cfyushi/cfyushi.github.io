@@ -7,12 +7,18 @@
 | hdpi     | 高密度屏幕；约为 240dpi                                      | drawable-hdpi               |
 | xhdpi    | 超高密度屏幕；约为 320dpi                                    | drawable-xhdpi              |
 | xxhdpi   | 超超高密度屏幕；约为 480dpi                                  | drawable-xxhdpi             |
-| xxxhpdi  | 超超超高密度屏幕；约为 640dpi                                | drawable-xxxhdpi            |
+| xxxhdpi  | 超超超高密度屏幕；约为 640dpi                                | drawable-xxxhdpi            |
 | nodpi    | 它可用于您不希望缩放以匹配设备密度的位图资源                 | drawable-nodpi              |
 | tvdpi    | 密度介于 mdpi 和 hdpi 之间的屏幕；约为 213dpi。<br />它并不是“主要”密度组， 主要用于电视， | drawable-tvdpi              |
 | anydpi   | 此限定符适合所有屏幕密度，其优先级高于其他限定符。<br />这对于矢量可绘制对象很有用 | drawable-anydpi             |
 
 **系统默认生成的文件夹drawable相当于mdpi**
+
+
+
+## dpi计算
+
+dpi值=对角线/屏幕尺寸，对角线可通过长宽计算
 
 
 
@@ -22,6 +28,8 @@
 2. 没有最匹配的目录或者目录中没有相应资源，向更高密度的目录查找，如果找到资源做缩小处理
 3. 往更高密度目录均为查找到，查找drawable-nodpi，不缩放资源
 4. 仍没有，往低密度目录查找，如果找到资源做放大处理
+
+
 
 ## 缩放比例系数
 
@@ -34,9 +42,13 @@
 | xxhdpi  | 3        |
 | xxxhdpi | 4        |
 
+
+
 ## 最佳实践
 
 **目前Android手机基本上都是xhdpi、xxhdpi、xxxhdpi，一般情况下我们可以全部放在drawable-xxhdpi目录下。UI经常切3套(@x@2x@3x)，我们可以只把@3x图片放在drawable-xxhdpi目录下**
+
+
 
 # mipmap
 
