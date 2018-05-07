@@ -46,9 +46,13 @@ dpi值=对角线/屏幕尺寸，对角线可通过长宽计算
 
 ## 最佳实践
 
-**目前Android手机基本上都是xhdpi、xxhdpi、xxxhdpi，一般情况下我们可以全部放在drawable-xxhdpi目录下。UI经常切3套(@x@2x@3x)，我们可以只把@3x图片放在drawable-xxhdpi目录下**
+* **目前Android手机基本上都是xhdpi、xxhdpi、xxxhdpi，一般情况下我们可以全部放在drawable-xxhdpi目录下。UI经常切3套(@x@2x@3x)，我们可以只把@3x图片放在drawable-xhdpi目录下**
+
+* **大分辨率图片(单维度超过 1000)大分辨率图片建议统一放在 xxhdpi 目录下管理，否则将导致占用内存成倍数增加**
 
 
+  ​			
+  ​	
 
 # mipmap
 
