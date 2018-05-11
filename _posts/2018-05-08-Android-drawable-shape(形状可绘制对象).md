@@ -133,6 +133,8 @@
 
 **centerX，centerY 在"linear"时表示centerColor的位置，在"radia"时表示圆形中心点的位置的位置，在"sweep"时表示扫描中心点的位置的位置。**
 
+![1](https://github.com/cfyushi/cfyushi.github.io/blob/master/_posts/img/drawable-shape/ovil_2.png?raw=true)
+
 **android:centerColor**
 
 *颜色*。起始颜色与结束颜色之间的可选颜色，以十六进制值或[颜色资源](https://developer.android.google.cn/guide/topics/resources/more-resources.html#Color)表示。不指定时，系统会根据startColor和endColor取中值。
@@ -158,6 +160,8 @@
 | "linear" | 线性渐变。这是默认值。       |
 | "radial" | 径向渐变。起始颜色为中心颜色 |
 | "sweep"  | 流线型渐变，扫描渐变         |
+
+![2](https://github.com/cfyushi/cfyushi.github.io/blob/master/_posts/img/drawable-shape/ovil_1.png?raw=true)
 
 **android:useLevel**
 
