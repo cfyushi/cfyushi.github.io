@@ -275,6 +275,8 @@
 </shape>
 ```
 
+![1](https://github.com/cfyushi/cfyushi.github.io/blob/master/_posts/img/drawable-shape/rectrange_1.png?raw=true)
+
 
 
 直线
@@ -293,7 +295,7 @@
 </shape>
 ```
 
-
+![1](https://github.com/cfyushi/cfyushi.github.io/blob/master/_posts/img/drawable-shape/lint_1.png?raw=true)
 
 
 
@@ -316,9 +318,7 @@
 </shape>
 ```
 
-
-
-
+![1](https://github.com/cfyushi/cfyushi.github.io/blob/master/_posts/img/drawable-shape/line_2.png?raw=true)
 
 
 
@@ -339,5 +339,5 @@
 </shape>
 ```
 
-
+![1](https://github.com/cfyushi/cfyushi.github.io/blob/master/_posts/img/drawable-shape/ring_1.png?raw=true)
 
