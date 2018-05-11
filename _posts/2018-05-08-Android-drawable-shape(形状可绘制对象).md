@@ -237,6 +237,8 @@
 
 
 
+
+
 ##size属性
 
 形状的大小，受android:layout_width和android:layout_height的限制
@@ -253,7 +255,89 @@
 
 
 
+## 示例
 
+矩形、圆角、描边、纯色
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="4dp" />
+
+    <size
+        android:width="200dp"
+        android:height="80dp" />
+    <solid android:color="@android:color/holo_blue_dark" />
+    <stroke
+        android:width="1dp"
+        android:color="@android:color/black" />
+</shape>
+```
+
+
+
+直线
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+
+    <size
+        android:width="200dp"
+        android:height="1dp" />
+    <stroke
+        android:width="1dp"
+        android:color="@color/colorRed"/>
+</shape>
+```
+
+
+
+
+
+虚线
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+
+
+    <stroke
+        android:width="1dp"
+        android:color="@color/colorRed"
+        android:dashGap="4dp"
+        android:dashWidth="8dp" />
+    <size
+        android:width="300dp"
+        android:height="1dp" />
+</shape>
+```
+
+
+
+
+
+
+
+环形
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadius="80dp"
+    android:shape="ring"
+    android:thickness="10dp"
+    android:useLevel="false">
+
+    <size
+        android:width="200dp"
+        android:height="200dp" />
+    <solid android:color="@color/colorRed" />
+</shape>
+```
 
 
 
